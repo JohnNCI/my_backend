@@ -22,7 +22,7 @@
           end
         end
       
-        # PUT/PATCH /products/:id
+        # PUT/_PATCH /products/:id
         def update
           product = Product.find(params[:id])
           if product.update(product_params)
